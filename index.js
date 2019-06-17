@@ -82,6 +82,7 @@ class NYC {
       return transforms
     }, {})
 
+    this.hookCreateScript = config.hookCreateScript
     this.hookRequire = config.hookRequire
     this.hookRunInContext = config.hookRunInContext
     this.hookRunInThisContext = config.hookRunInThisContext
@@ -291,6 +292,9 @@ class NYC {
     }
     if (this.hookRunInThisContext) {
       this._addHook('RunInThisContext')
+    }
+    if (this.hookCreateScript) {
+      this._addHook('CreateScript')
     }
   }
 
