@@ -1,5 +1,9 @@
 # nyc
 
+This fork is modified to support instrumentation hooks for the "deprecated-ish" vm.createScript function.
+
+---
+
 [![Build Status](https://travis-ci.org/istanbuljs/nyc.svg?branch=master)](https://travis-ci.org/istanbuljs/nyc)
 [![Coverage Status](https://coveralls.io/repos/istanbuljs/nyc/badge.svg?branch=)](https://coveralls.io/r/istanbuljs/nyc?branch=master)
 [![NPM version](https://img.shields.io/npm/v/nyc.svg)](https://www.npmjs.com/package/nyc)
